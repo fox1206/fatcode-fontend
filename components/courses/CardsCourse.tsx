@@ -43,6 +43,7 @@ export default function CardsCourse() {
         <Box 
         sx={{
           display: 'flex',
+          flexWrap: 'wrap',
           columnGap: 2,
           justifyContent: 'center',
         }}>
@@ -50,6 +51,7 @@ export default function CardsCourse() {
             <ButtonBase key={button} 
               sx={{
                borderRadius: 40,
+               my: 1,
                paddingX: 4,
                paddingY: 1, 
                backgroundColor: '#1C1D1E', 
