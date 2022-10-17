@@ -20,7 +20,7 @@ const TextLeftMenu: React.FC<LeftMenu> = ({ list }) => {
             {
                 list.map(item => (
                     <Grid>
-                        <Typography key={item.key} sx={{
+                        <Typography className="b" key={item.key} sx={{
                             display: 'flex',
                             alignItems: 'center',
                             columnGap: 2,
@@ -32,6 +32,9 @@ const TextLeftMenu: React.FC<LeftMenu> = ({ list }) => {
                             "&:hover": {
                                 background: "white",
                                 color: "#69CB2D",
+                            },
+                            "&:hover > svg path":{
+                                fill: '#69CB2D',
                             }
                         }}>
                             {item.icon}
