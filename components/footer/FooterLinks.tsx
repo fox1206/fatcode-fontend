@@ -31,7 +31,7 @@ const FooterLinks = ({footerText}) => {
                                         sx={{
                                           display: 'flex',
                                           columnGap: 2,
-                                          mt: 2
+                                          mt: 2,
                                         }}>
                                           <IconTelegram />
                                           <IconYoutube />
